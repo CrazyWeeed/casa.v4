@@ -132,7 +132,7 @@ export function Comparison() {
               </Reveal>
 
               <Reveal delay={300}>
-                <div className="card-pad h-full rounded-sm border border-graphite/6 bg-linen/30 opacity-85 transition-opacity duration-700 hover:opacity-100">
+                <div className="card-pad h-full rounded-sm border border-graphite/6 bg-linen/30 opacity-70 transition-opacity duration-700 hover:opacity-100">
                   <p className="eyebrow text-muted-foreground/40">Habitual</p>
                   <h3 className="font-display mt-4 text-[1.75rem] leading-none font-light text-muted-foreground/80">
                     Outras empresas
