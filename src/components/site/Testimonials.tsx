@@ -23,7 +23,7 @@ const testimonials = [
 
 export function Testimonials() {
   return (
-    <section id="testemunhos" className="paper depth relative bg-sand py-40 md:py-64">
+    <section id="testemunhos" className="paper depth relative bg-sand py-32 md:py-56">
       <div className="section-seam" aria-hidden />
       <div className="relative z-[2] mx-auto max-w-[92rem] px-6 md:px-12">
         <Reveal className="max-w-2xl">

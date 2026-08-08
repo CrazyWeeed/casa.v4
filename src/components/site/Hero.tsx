@@ -142,7 +142,7 @@ export function Hero() {
 
       <div
         ref={contentRef}
-        className="relative z-10 mx-auto flex h-full max-w-[92rem] flex-col justify-end px-6 pb-16 pt-28 will-change-transform md:px-12 md:pb-20 md:pt-32"
+        className="relative z-10 mx-auto flex h-full max-w-[92rem] flex-col justify-end px-6 pb-16 pt-40 will-change-transform md:px-12 md:pb-20 md:pt-48 lg:pt-56"
       >
         <div className="max-w-3xl">
 

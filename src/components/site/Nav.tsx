@@ -91,7 +91,7 @@ export function Nav() {
                 href={l.href}
                 aria-current={isActive ? "true" : undefined}
                 className={cn(
-                  "relative text-[0.8rem] tracking-[0.14em] uppercase transition-colors duration-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold",
+                  "relative text-[0.8rem] tracking-[0.14em] uppercase transition-all duration-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold hover:scale-105 hover:-translate-y-0.5",
                   scrolled
                     ? isActive
                       ? "text-graphite"
@@ -115,17 +115,17 @@ export function Nav() {
 
 
         <div className="flex items-center gap-4">
-          <a
-            href="#contacto"
-            className={cn(
-              "hidden border px-6 py-3 text-[0.72rem] tracking-[0.22em] uppercase transition-all duration-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold sm:inline-block",
-              scrolled
-                ? "border-graphite/25 text-graphite hover:border-graphite hover:bg-graphite hover:text-ivory"
-                : "border-petrol-foreground/35 text-petrol-foreground drop-shadow-md hover:border-petrol-foreground hover:bg-petrol-foreground/10",
-            )}
-          >
-            Pedir orçamento
-          </a>
+          {scrolled && (
+            <a
+              href="#contacto"
+              className={cn(
+                "border px-6 py-3 text-[0.72rem] tracking-[0.22em] uppercase transition-all duration-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold hover:shadow-sm hover:-translate-y-px",
+                "border-graphite/25 text-graphite hover:border-graphite hover:bg-graphite hover:text-ivory"
+              )}
+            >
+              Pedir orçamento
+            </a>
+          )}
           <button
             type="button"
             aria-label="Abrir menu"
