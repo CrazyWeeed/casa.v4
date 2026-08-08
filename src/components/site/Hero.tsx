@@ -82,7 +82,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative h-[78svh] max-h-[860px] min-h-[540px] w-full overflow-hidden bg-petrol-deep"
+      className="relative h-[100svh] max-h-[860px] min-h-[540px] w-full overflow-hidden bg-petrol-deep"
     >
       <div
         ref={layerRef}
